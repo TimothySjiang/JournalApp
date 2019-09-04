@@ -29,6 +29,7 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.util.Objects;
+import java.util.Date;
 
 import util.JournalApi;
 
@@ -144,7 +145,7 @@ public class PostJournalActivity extends AppCompatActivity implements View.OnCli
                                 public void onSuccess(Uri uri) {
 
                                     String imageUrl = uri.toString();
-                                    //Todo: create a Journal Object - model
+                                    //Todo: create a Journal Object
                                     Journal journal = new Journal();
                                     journal.setTitle(title);
                                     journal.setThought(thoughts);
@@ -158,7 +159,6 @@ public class PostJournalActivity extends AppCompatActivity implements View.OnCli
                                             .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                                                 @Override
                                                 public void onSuccess(DocumentReference documentReference) {
-
                                                     progressBar.setVisibility(View.INVISIBLE);
                                                     startActivity(new Intent(PostJournalActivity.this,
                                                             JournalListActivity.class));
