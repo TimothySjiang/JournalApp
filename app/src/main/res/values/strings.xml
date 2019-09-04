@@ -12,4 +12,5 @@
     <string name="post_title" />
     <string name="thoughts">Your Thoughts</string>
     <string name="save_button">Save</string>
+    <string name="title_hint">Title</string>
 </resources>
