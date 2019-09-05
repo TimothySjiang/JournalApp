@@ -27,6 +27,7 @@ import java.util.List;
 import java.util.Objects;
 
 import model.Journal;
+import ui.JournalRecyclerAdapter;
 import util.JournalApi;
 
 public class JournalListActivity extends AppCompatActivity {
