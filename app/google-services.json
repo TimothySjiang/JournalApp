@@ -1,50 +1,42 @@
 {
   "project_info": {
-    "project_number": "11082287778",
-    "firebase_url": "https://self-de15b.firebaseio.com",
-    "project_id": "self-de15b",
-    "storage_bucket": "self-de15b.appspot.com"
+    "project_number": "77556823318",
+    "firebase_url": "https://self-2fdf8.firebaseio.com",
+    "project_id": "self-2fdf8",
+    "storage_bucket": "self-2fdf8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:11082287778:android:ac33b3c8b32914fe",
+        "mobilesdk_app_id": "1:77556823318:android:63a4d96192edced9d74c37",
         "android_client_info": {
           "package_name": "com.shan.self"
         }
       },
       "oauth_client": [
         {
-          "client_id": "11082287778-ia08670e9e84v1t0ud069401piiv397g.apps.googleusercontent.com",
+          "client_id": "77556823318-kcouq5ii7pfbpamucrc6pu4sskmici83.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.shan.self",
-            "certificate_hash": "9aaf908141854d6655750935c41f06dfda6c87fa"
+            "certificate_hash": "113b663ae9412a148b642e8f5861971c2db50fa0"
           }
         },
         {
-          "client_id": "11082287778-3tpqdt11nbsg3m69vov4436a3rn13pc3.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.shan.self",
-            "certificate_hash": "41b390241e0c09482cf343622296334401f5b18d"
-          }
-        },
-        {
-          "client_id": "11082287778-5rtocc973oim30k55mrhg9u726kci7lv.apps.googleusercontent.com",
+          "client_id": "77556823318-mi2qfpepoveeh43m63mo7f5ugiav3rfa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPIFxPVhd-_NEigHqfLPmM7LrmVoBm_hM"
+          "current_key": "AIzaSyD9Q3jJGJqx5Rq46DAIRvFShWbRSJ4nf2g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "11082287778-5rtocc973oim30k55mrhg9u726kci7lv.apps.googleusercontent.com",
+              "client_id": "77556823318-mi2qfpepoveeh43m63mo7f5ugiav3rfa.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

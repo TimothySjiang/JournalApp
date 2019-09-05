@@ -47,21 +47,31 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private CollectionReference collectionReference = db.collection("Users");
 
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         progressBar = findViewById(R.id.login_progress);
+
         Objects.requireNonNull(getSupportActionBar()).setElevation(0);
+
         firebaseAuth = FirebaseAuth.getInstance();
+
+
         emailAddres = findViewById(R.id.email);
         password = findViewById(R.id.password);
+
         loginButton = findViewById(R.id.email_sign_in_button);
         createAcctButton = findViewById(R.id.create_acct_button_login);
+
         createAcctButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this,CreateAccountActivity.class));
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, CreateAccountActivity.class));
             }
         });
 
@@ -98,7 +108,6 @@ public class LoginActivity extends AppCompatActivity {
                                                             @Nullable FirebaseFirestoreException e) {
 
                                             if (e != null) {
-                                                return;
                                             }
                                             assert queryDocumentSnapshots != null;
                                             if (!queryDocumentSnapshots.isEmpty()) {
@@ -148,3 +157,4 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 }
+
